@@ -1,26 +1,100 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[o ] Two Element Selectors
+[ o ] Two ID Selectors
+[ o ] Two Class Selectors
+[ o] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include Border Radius CSS Property 
-[ no ] Feature 2 - Include a Static Background Image
+[ yes ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
-    
+
 <!DOCTYPE HTML>
 <html>
+    
     <head>
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
+        
+        <style>
+            h2 {background-color: rgb(255, 255, 255)} 
+            body {background-image: url("teyvatttt.png"); background-size:cover; background-repeat:no-repeat; background-attachment:fixed;}
+            #fontaine-header {color: rgb(80, 133, 248);}
+            #natlan-header {color: rgb(254, 157, 37);}
+            #snezhnaya-header {color: rgb(35, 182, 231)}
+            @keyframes appear {from {opacity: 0.8; scale: 0.5;} to {opacity: 1; scale: 1;}}
+            img {animation: appear 5s linear; 
+                animation-timeline: view(); 
+                animation-range: entry 0 cover 40%;}
+            .description {font-size: 13px; color: rgb(9, 0, 142);}
+            .subtext {color:rgb(75, 75, 78)}
+        </style>
     </head>
     <body>
+        <h1> Most beautiful Teyvat Destinations of 2026</h1>
+            <p class="description">Published by Charlotte Geneaurd on the Steambird, revised by the Druzhna HQ. </p>
+        </h1>
+        <br>
+<p>HEY! Are <strong>YOU</strong> looking for new travel destinations in Teyvat?! 
+    Well, look no further! Here are some of the most beautiful, unforgettable Teyvat destinations of 2026!
 
-        
+    <h2 id="fontaine-header">#1. Fontaine, Nation of Justice And The Best Cake in all of Teyvat</h2>
+    <p class="subtext">Welcome to <strong>Fontaine</strong>, where you'll swim in infinitely beautiful waters and discover incredible technology.</p>
+    <img src="fontaine.jpg" width="300">
+    <p class="description"> In Fontaine, you'll find yourself surrounded by a world of bubbly underwater creatures and intricate, 
+        aquatic architecture found nowhere as advanced in Teyvat. It is also the birthplace of world-renowned 
+        cuisine such as those created by the famous Escoffier herself. Only in Fontaine does the "archon" appreciate
+         its pastries as much as its people. <em> Fontaine is the place to go if you're looking for a place to experience 
+         refined cuisine, rare technology, or just unforgettable theatric arts.</em> <br>
+        <br>
+        Fontaine is truly ideal whether you're an akedemian scholar looking to study the variety of life underwater, a
+        merchant getting ahead of the newest technology before it goes Teyvat-wide, or a traveler who just wants some 
+        delicious cake. For those interested, stop by the Epiclese Opera House to see the latest theatric performances by the 
+        famous Golden Troupe, have a go at the famous 14-slices-a-day cake at Fleuve Cendre, or read the steambird on the newest
+        technology and ocean news. But hurry, tourism has been increasing ever since the great flood; book your spot at 
+        <strong>Hotel Debord</strong> before anyone else does!</p>
+
+
+    <h2 id="natlan-header">#2. Natlan, Nation of War, Yet Teyvat's Most Peaceful Springs?!</h2>
+    <p class="subtext">Welcome to <strong>Natlan</strong>, known for its adorable dragon wildlife and perfect summer resorts.</p>
+    <img src="easybreeze.png" width="300">
+    <p class="description">
+        Natlan is the land of adorable dragon wildlife and holiday resorts splashed with murals. Natlan is perfect
+        for those looking to stay somewhere warm and sunny; it is one of the friendliest,
+        most vacational nations in Teyvat. Hot springs, beautiful beaches, and infinite dragon wildlife await those who
+        visit Natlan. You can also kick back and watch the warrior trials, because this nation doesn't pride itself on
+        strength without reason. And everywhere you go... there is music and art! The holiday resortsare filled with
+        murals and music- you could even catch a performance by the famous <strong>DJ Xilonen</strong> if you get lucky!
+        And of course, its diverse landscape is always an unforgettable experience. <em>Natlan is perfect for those
+        looking for a vacational resort somewhere sunny and artistic, and meet creatures and witness
+        incredibly beautiful nature nowhere else in Teyvat.</em> <br>
+        <br>
+        Natlan is ideal for families looking to vacation, warriors looking for challengers, or worldwide fans of music. 
+        Natlan is simply perfect for those who prefer the sun, appreciate the views, and enjoy the action. Watch a tense warrior battle,
+        take a dip at the famous Toyac Springs or Easybreeze Resort, watch a Atopoc erupt... or just relax with some Saurians. I'd
+        tell you more, but I didn't pay attention during this archon quest...
+   
+
+    <h2 id="snezhnaya-header">#3. Snezhnaya, Nation of Love, Kissed by Unforgettable Winters and Arts</h2>
+    <p class="subtext">Welcome to <strong>Snezhnaya</strong>, the land of unending snows filled with breathtaking arts. The <strong>perfect land.</strong></p>
+    <img src="snezhnaya.png" width="300">
+    <p class="description">Some might say Snezhnaya is the nation with an archon who has lost its love for its
+        people. Others might say Snezhnaya's bitter cold would freeze the average traveller who didn't keep on
+        moving. However, those who visit Snezhnaya will find themselves surrounded by warmth despite the cold nature.
+        There are no arts like in Snezhnaya. There are no winters like in Snezhnaya. There are no people like in Snezhnaya.
+        And there is no resilience like in Snezhnaya. Those who visit Snezhnaya will never be the same after witnessing
+        a performance at the world-renowned Korolevskiy Theater, or visiting the village of a Jack Frost, or sometimes even
+        witness the return of the Tsaritsa after another successful campaign. <em>There is simply no land like Snezhnaya.</em>
+        <br>
+        Snezhanaya... is ideal for <em>everyone.</em> Come witness the performance of Shining Stars <strong>Vodyanitsa and Odette.</strong> Come witness the
+        snow-capped mountains and gorgeous frozen lakes. Walk through the streets of the Everfrozen Earth, and learn that Snezhnaya is
+        as beautiful as it has always been. Despite recent events, it is COMPLETELY safe to visit, and all travelers are highly welcomed... 
+    </p>
+        </p>
+        </div>
     </body>
 </html>
